@@ -1,19 +1,35 @@
-About This Book
+About The Book
 ===============
 
-This `repository <https://github.com/SystemsApproach/SDN-CN>`__
-contains source for a Chinese translation of *Softwarwe-Defined
-Networks: A Systems Approach*, available under terms of the `Creative
-Commons (CC BY-NC-ND 4.0)
+This `repository <https://github.com/SystemsApproach/SDN>`__ contains
+source for *Software-Defined Networks: A Systems Approach*, available under
+terms of the `Creative Commons (CC BY-NC-ND 4.0)
 <https://creativecommons.org/licenses/by-nc-nd/4.0>`__ license. The
 community is invited to contribute corrections, improvements, updates,
 and new material under the same terms.
 
+If you make use of this work, the attribution should include the
+following information:
+
+| *Title: Software-Defined Networks: A Systems Approach* 
+| *Authors: Larry Peterson, Carmelo Cascone, Brian O'Connor, and Thomas Vachuska* 
+| *Source:* https://github.com/SystemsApproach/SDN 
+| *License:* \ `CC BY-NC-ND 4.0 <https://creativecommons.org/licenses/by-nc-nd/4.0>`__
+
 Read the Book
 -------------
 
-An online version of the book will be published once the translation
-is complete.
+This book is part of the `Systems Approach Series
+<https://www.systemsapproach.org>`__, with an online version published
+at `https://sdn.systemsapproach.org
+<https://sdn.systemsapproach.org>`__.
+
+To track progress and receive notices about new versions, you can follow
+the project on
+`Facebook <https://www.facebook.com/Computer-Networks-A-Systems-Approach-110933578952503/>`__
+and `Twitter <https://twitter.com/SystemsAppr>`__. To read a running
+commentary on how the Internet is evolving, follow the `Systems Approach
+Blog <https://www.systemsapproach.org>`__.
 
 Build the Book
 --------------
@@ -22,17 +38,15 @@ To build a web-viewable version, you first need to download the source:
 
 .. code:: shell 
 
-   mkdir ~/SDN-CN
-   cd ~/SDN-CN
-   git clone https://github.com/SystemsApproach/SDN-CN.git 
+   $ mkdir ~/SDN 
+   $ cd ~/SDN 
+   $ git clone https://github.com/SystemsApproach/SDN.git 
 
 The build process is stored in the Makefile and requires Python be 
 installed. The Makefile will create a virtualenv (``doc_venv``) which 
 installs the documentation generation toolset. 
 
 To generate HTML in ``_build/html``,  run ``make html``.
-
-To get a live reload in your browser (refreshes on file save), run ``make reload``.
 
 To check the formatting of the book, run ``make lint``.
 
@@ -50,5 +64,5 @@ addressed, and issuing *Pull Requests* to merge your improvements back
 into GitHub.
 
 If you’d like to contribute and are looking for something that needs
-attention, see the `wiki <https://github.com/SystemsApproach/SDN-CN/wiki>`__
+attention, see the `wiki <https://github.com/SystemsApproach/SDN/wiki>`__
 for the current TODO list.
