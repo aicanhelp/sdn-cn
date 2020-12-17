@@ -10,3 +10,4 @@ _build/
 _static/
 doc_venv/
 cover.docx
+.ipynb_checkpoints
